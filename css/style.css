@@ -12,7 +12,7 @@
 }
 .hero {
     height: 100vh;
-    width: 1130px;
+    width: 1720px;
     background-image: url(../img/3.2.png);
     background-size: cover;
     background-position: center;
@@ -25,9 +25,9 @@
 nav {
     /* display: flex; */
     /* align-items: flex-start; */
-    justify-content: center;
+    
     padding-top: 45px;
-    padding-left: 3%;
+    padding-left: 1%;
     padding-right: 5%;
     display: flex;
     height: 30%;
@@ -44,6 +44,8 @@ nav {
     cursor: pointer;
     text-align: left;
     text-decoration: underline;
+    padding-right: 40px;
+    margin-left: 50px;
     
     
     
@@ -55,17 +57,25 @@ nav ul li a{
     display: flex;
     text-decoration: none;
     padding: 10px; 
+    
+    justify-content: space-between;
+    
+    
+    
 }
 .navbar {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
     padding: 20px;
     text-transform: capitalize;
     display: flex;
-   align-content: center;
+   
    text-decoration: none;
    list-style: none;
+   margin-left: 600px;
+   
+   
    
    
     
@@ -81,7 +91,7 @@ nav ul li a:hover {
 
 
 nav a {
-    color:white;
+    color:#ffffff;
     letter-spacing: 2px;
    
     
@@ -90,7 +100,9 @@ nav a {
 
 
 
-
+.navbar li {
+    padding: 5px;
+}
 
 .about .main img {
     
@@ -105,6 +117,7 @@ nav a {
     transform: translateY(-50%);
     width: 100%;
     height: fit-content;
+    margin-left: 50px;
     
     
 
@@ -165,7 +178,7 @@ h4 {
 
 }
 .about {
-    width: 1130px;
+    width: 1720px;
     padding: 100px 0px;
     background-color: #191919;
 }
@@ -185,7 +198,7 @@ h4 {
 .main {
     width: 100%;
     max-width: 95%;
-    margin: 0 ;
+    margin: 52px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -231,14 +244,14 @@ button:hover {
 .service {
 
     background: #101010;
-    width: fit-content;
+    width: 1720px;
     padding: 100px 0px;
 }
 
 .title {
     color: white;
     font-size: 75px;
-    width: 1130px;
+    width: 1720px;
     margin: 30px auto;
     text-align: center;
 }
@@ -297,7 +310,7 @@ h5 {
     cursor: pointer;
 }
 .contact-me {
-    width: 1130px;
+    width: 1720px;
     height: 290px;
     background: #191919;
     display: flex;
@@ -331,7 +344,7 @@ h5 {
 }
  footer {
     position: relative;
-     width: 1130px;
+     width: 1720px;
     height: 400px;
     background: #101010;
     display: flex;
