@@ -181,7 +181,7 @@ h4 {
 .about {
     width: 1720px;
     padding: 100px 0px;
-    background-color: #191919;
+    background-color: #3a3a3a;
 }
 .about img {
     height: auto;
@@ -313,7 +313,7 @@ h5 {
 .contact-me {
     width: 1720px;
     height: 290px;
-    background: #191919;
+    background: #3a3a3a;
     display: flex;
     align-items: center;
     flex-direction: column;
