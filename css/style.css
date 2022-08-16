@@ -27,7 +27,7 @@ nav {
     /* display: flex; */
     /* align-items: flex-start; */
     
-    padding-top: 45px;
+    padding-top: 20px;
     padding-left: 1%;
     padding-right: 5%;
     display: flex;
@@ -146,6 +146,7 @@ h4 {
     color: rgba(255, 255, 255, 0.8);
     letter-spacing: 2px;
     font-size: 20px;
+    
 
 }
 .newsteller form{
@@ -414,6 +415,110 @@ footer p:nth-child(2) {
 .box .card i {
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width:500px) {
+    html {
+        width: 500px;
+    }
+    body {
+        height: fit-content;
+        width: 100%;
+    }
+    * {
+        width: 500px;
+        height: fit-content;
+    }
+    .hero {
+        width: 100%;
+        height: 900px;    
+    }
+    .hero h2 {
+        font-size: 22px;
+    }
+    .content {
+        
+        top: 1%;
+        left: 1%;
+        
+        width: 20%;
+        height: 50px;
+        font-size: 22px;
+        margin-left: 50px;
+    }
+    nav {
+        width: 100%;
+    }
+    
+    .navbar {
+        display: block;
+        /* width: 500px; */
+    }
+    .about {
+        width: 100%;
+        
+        padding-left: 0px;
+        
+    }
+    .about-text {
+       width: fit-content;
+        padding: 0px;
+      
+        
+    }
+    .about-text p {
+        color: #fcfc;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+        width: 450px
+    }
+    .service {
+        width: inherit;
+        
+    }
+
+    h2#ourservices {
+        font-size: 50px;
+    }
+    div.contact-me {
+        width: inherit;
+    }
+    .contact-me .button-two {
+        width: 20%;
+    }
+    footer#contact {
+        width: inherit;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+        
+    }
+    .card {
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        background: #191919;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    
+        justify-content: center;
+        align-items: center;
+    }
+    .pra p {
+        width: 460px;
+    }
+    .about-text h2 {
+        text-align: left;
+    }
+    
 }
 
 
