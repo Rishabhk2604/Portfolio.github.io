@@ -126,7 +126,7 @@ nav a {
 h1  {
     color: rgb(255, 255, 255);
     margin: 20px 0px 20px;
-    font-size: 125px;
+    font-size: 75px;
     font-family: 'Square Peg', cursive;
     letter-spacing: 2px;
     
@@ -134,7 +134,7 @@ h1  {
 }
 h1 span {
     font-family: 'Square Peg', cursive;
-    font-size: 125px;
+    font-size: 90px;
 }
 h3 {
     color: rgb(255, 255, 255);
